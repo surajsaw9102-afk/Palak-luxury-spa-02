@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { spaData } from './data/spaData';
 import { Header } from './components/Header';
 import { HeroVideoSection } from './components/HeroVideoSection';
@@ -15,6 +15,10 @@ import { FloatingActions } from './components/FloatingActions';
 import { LeadModal } from './components/LeadModal';
 
 export default function App() {
+  useEffect(() => {
+    document.title = "Palak Luxury Spa | Best Luxury Spa in Gandhinagar";
+  }, []);
+
   return (
     <div className="min-h-screen bg-white text-[#1a1a1a] font-sans antialiased selection:bg-[#7B113A]/20 selection:text-[#7B113A]">
       {/* 1. Header with Exact Lotus Logo & Menu */}
