@@ -1,0 +1,7 @@
+{
+  "name": "Palak Luxury Spa",
+  "description": "Relax. Rejuvenate. Renew. Premium luxury spa in Kudasan, Gandhinagar offering luxury massage therapies, Jacuzzi baths, and complete wellness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
