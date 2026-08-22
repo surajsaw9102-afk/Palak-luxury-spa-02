@@ -87,14 +87,14 @@ export const SpecialOffersSection: React.FC = () => {
         <div className="mt-10 max-w-md mx-auto grid grid-cols-12 gap-3">
           <div className="col-span-8 rounded-2xl overflow-hidden aspect-[4/3] bg-gray-100 shadow-sm">
             <img
-              src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80"
+              src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&q=80"
               alt="Palak Luxury Spa Care"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="col-span-4 rounded-2xl overflow-hidden aspect-square self-end bg-gray-100 shadow-sm">
             <img
-              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+              src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=400&q=80"
               alt="Palak Luxury Spa Details"
               className="w-full h-full object-cover"
             />

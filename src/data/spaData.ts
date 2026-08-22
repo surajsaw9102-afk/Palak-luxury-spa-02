@@ -81,9 +81,9 @@ export const spaData = {
       }
     ],
     collage: {
-      img1: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
-      img2: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
-      img3: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80"
+      img1: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80",
+      img2: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80",
+      img3: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=600&q=80"
     }
   },
 
@@ -92,7 +92,7 @@ export const spaData = {
       id: "jacuzzi-massage",
       name: "Jacuzzi Massage",
       description: "Relax in warm swirling water that eases tension and soothes tired muscles.",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: "deep-tissue-massage",
@@ -104,25 +104,25 @@ export const spaData = {
       id: "thai-massage",
       name: "Thai Massage",
       description: "Traditional stretching and acupressure technique to restore energy and flexibility.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: "swedish-massage",
       name: "Swedish Massage",
       description: "Gentle, flowing strokes designed to relax the body and improve circulation.",
-      image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: "hot-oil-massage",
       name: "Hot Oil Massage",
       description: "Warm aromatic oils combined with smooth strokes to melt away stress.",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: "body-massage",
       name: "Body Massage",
       description: "A full body treatment that relieves fatigue and leaves you feeling renewed.",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80"
     }
   ],
 
@@ -155,7 +155,7 @@ export const spaData = {
       id: "g5",
       number: "05",
       image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80",
-      caption: "Bamboo Chandelier & Warm Dressing Vanity"
+      caption: "Deep Tissue & Therapeutic Massage Suite"
     },
     {
       id: "g6",
@@ -167,19 +167,49 @@ export const spaData = {
       id: "g7",
       number: "07",
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80",
-      caption: "Private Shower & Wash Area"
+      caption: "Herbal Oil Body Massage & Warm Bed"
     },
     {
       id: "g8",
       number: "08",
-      image: "https://images.unsplash.com/photo-1629853381655-32e6047c645b?auto=format&fit=crop&w=800&q=80",
-      caption: "Round Vanity Mirror & Warm Light Bed"
+      image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80",
+      caption: "Aromatherapy & Facial Glow Treatment"
     },
     {
       id: "g9",
       number: "09",
+      image: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+      caption: "Palak Luxury Spa Jacuzzi Suite"
+    },
+    {
+      id: "g10",
+      number: "10",
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+      caption: "Relaxing Herbal Foot Spa & Clean Towels"
+    },
+    {
+      id: "g11",
+      number: "11",
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=800&q=80",
+      caption: "Professional Therapist Consultation"
+    },
+    {
+      id: "g12",
+      number: "12",
+      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
+      caption: "Calm Ambience & Organic Essence Oils"
+    },
+    {
+      id: "g13",
+      number: "13",
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80",
+      caption: "Warm Greeting & Private Suite Service"
+    },
+    {
+      id: "g14",
+      number: "14",
       image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
-      caption: "Palak Luxury Spa Lobby Corridor"
+      caption: "Luxury Lounge & Soft Music Area"
     }
   ],
 
@@ -205,9 +235,9 @@ export const spaData = {
       }
     ],
     staffImages: [
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=600&q=80"
     ]
   },
 
