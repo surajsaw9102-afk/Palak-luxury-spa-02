@@ -1,33 +1,39 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Phone, MessageCircle } from 'lucide-react';
 import { spaData } from '../data/spaData';
 
 export const HeroVideoSection: React.FC = () => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    // Ensure instant and persistent autoplay without delay
+    if (videoRef.current) {
+      videoRef.current.play().catch(() => {
+        // Handle browser autoplay policy gracefully
+      });
+    }
+  }, []);
+
   return (
-    <section id="home" className="relative w-full h-[72vh] sm:h-[80vh] min-h-[500px] overflow-hidden flex items-center justify-center">
+    <section id="home" className="relative w-full h-[72vh] sm:h-[80vh] min-h-[500px] overflow-hidden flex items-center justify-center bg-[#1a0e14]">
       
-      {/* Background Video */}
+      {/* Background Video with instant preload and luxury corridor backdrop */}
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
-        poster={spaData.hero.posterImage}
+        preload="auto"
         className="absolute inset-0 w-full h-full object-cover z-0 scale-105"
       >
         <source
           src={spaData.hero.videoUrl}
           type="video/mp4"
         />
-        {/* Fallback to image if video cannot play */}
-        <img
-          src={spaData.hero.posterImage}
-          alt="Palak Luxury Spa Gandhinagar"
-          className="w-full h-full object-cover"
-        />
       </video>
 
-      {/* Dark Ambient Overlay exactly like in recording */}
+      {/* Dark Ambient Luxury Overlay exactly like in recording */}
       <div className="absolute inset-0 bg-black/45 z-10" />
 
       {/* Hero Content */}
