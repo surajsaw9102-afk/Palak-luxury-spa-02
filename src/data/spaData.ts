@@ -40,11 +40,11 @@ export const spaData = {
     city: "GANDHINAGAR",
     state: "Gujarat",
     locationHeading: "Best Luxury Spa In Gandhinagar",
-    phone1: "07542967694",
-    phone2: "+91 75429 67694",
-    phone1Raw: "917542967694",
-    phone2Raw: "917542967694",
-    whatsapp: "917542967694",
+    phone1: "+91 91995 61258",
+    phone2: "+91 91995 61258",
+    phone1Raw: "+919199561258",
+    phone2Raw: "+919199561258",
+    whatsapp: "919199561258",
     email: "palakluxuryspa@gmail.com",
     timings: "Open 24 hours, all days",
     pinCode: "382419",
@@ -246,21 +246,21 @@ export const spaData = {
       id: "o1",
       title: "COUPLES MASSAGE",
       discount: "20% OFF",
-      phones: ["07542967694"],
+      phones: ["9199561258"],
       bannerImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80"
     },
     {
       id: "o2",
       title: "ALL SERVICES",
       discount: "20% OFF",
-      phones: ["07542967694"],
+      phones: ["9199561258"],
       bannerImage: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=600&q=80"
     },
     {
       id: "o3",
       title: "MEMBERSHIP PLAN",
       discount: "25% OFF",
-      phones: ["07542967694"],
+      phones: ["9199561258"],
       bannerImage: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=600&q=80"
     }
   ],
